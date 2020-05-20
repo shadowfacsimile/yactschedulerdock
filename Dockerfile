@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:14.2.0-alpine3.10
 WORKDIR /home/facsimile/yactschedulerdock/
 COPY package*.json ./
 RUN npm install

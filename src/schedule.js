@@ -3,7 +3,7 @@
 const cron = require('node-cron');
 const request = require('request');
 const fs = require('fs');
-const csv = require("csvtojson");
+const csv = require('csvtojson');
 
 let casesUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
 let deathsUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv";
